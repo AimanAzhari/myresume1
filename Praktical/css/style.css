@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+body {
+    font-family:Arial,Helvetica,sans-serif; 
+    margin:0px;
+    background-image: url(../image/pb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width:481px){
+.media{
+    border: 3px solid blue;
+    background-color: none;
+    border-radius:12px;
+    float:none;
+    background-image: url(../image/wp2.jpg);
+    background-size: cover;
+    
+}
+#wrapper{
+    width:1240px;
+    height: 900px;
+    margin-left:auto;
+    margin-right: auto;
+    border:red dashed 5px;
+}
+    
+    }
+table, th, td {
+    border: 2px solid blue;
+    border-radius:12px;
+
+}
+th,td {
+    
+    padding:100x;
+}
+
+.box{
+	width:149px;
+	height:200px;
+	float:left;
+	margin-right:2px;
+	color:#999;
+	padding-top:30px;
+}
+h1{
+
+    font-family:cursive;
+    text-align: center;
+}
+
+
+#table1{
+    border: : 2px solid green;
+    align-content: left; 
+        
+}
+#ul,tr{
+    background: none;
+    padding:5px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+}
+#li{
+    display: inline;
+    text-align: center;
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+a{
+    color: pink;
+}
+#gambar{
+    float: left;
+    
+}
+
